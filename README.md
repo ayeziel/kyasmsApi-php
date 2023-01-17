@@ -14,7 +14,7 @@ KYA SMS a platform for sending marketing and banking sms all over the world. Wit
  # . Send sms
  
  ```php
-require_once __DIR__ . '/kyasms-php/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use Kyasms\PhpApi\kyasmsClient;
 
