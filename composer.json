@@ -1,6 +1,7 @@
 {
     "name": "kyasms/php-api",
     "description": "Kyasms api send sms",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Kyasms\\PhpApi\\": "src/"
