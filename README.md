@@ -32,7 +32,7 @@ $smsData = array(
            'message' => 'api sms'                         
            );
            
-           $response = $kyasms->traceSms($smsData);
+           $response = $kyasms->sendSms($smsData);
            echo $response;
            
 ```
