@@ -16,5 +16,7 @@
             "email": "support@kyasms.net"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.3"
+    }
 }
