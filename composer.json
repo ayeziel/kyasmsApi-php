@@ -1,0 +1,19 @@
+{
+    "name": "kyasms/php-api",
+    "description": "Kyasms api send sms",
+    "autoload": {
+        "psr-4": {
+            "Kyasms\\PhpApi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kya sms",
+            "email": "support@kyasms.net"
+        }
+    ],
+    "require": {}
+}
