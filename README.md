@@ -7,8 +7,9 @@ KYA SMS a platform for sending marketing and banking sms all over the world. Wit
 
   It is recommended to use composer to install the library.
   
- > <sup>$ composer require kyasms/php-api</sup>
- 
+  ```
+  $ composer require kyasms/php-api
+ ```
  You can also use any other PSR-4 compliant autoloader.
  
  # . Send sms
@@ -29,10 +30,32 @@ $smsData = array(
           'from' => 'KYA SMS',
           'to' =>'22966413718,22998039720', 
           'type' => 0,
-           'message' => 'api sms'                         
-           );
+          'message' => 'api sms'                         
+       );
            
-           $response = $kyasms->sendSms($smsData);
-           echo $response;
+       $response = $kyasms->sendSms($smsData);
+       echo $response;
            
 ```
+
+You will receive a response : 
+
+ ```
+ 
+ {
+    "status": "ACT",
+    "submit": 2,
+    "fail": 0,
+    "success": 2,
+    "cost": 24,
+    "currency": "XOF",
+    "sms_part": 1,
+    "senderId": "KYA SMS",
+    "message": "api sms",
+    "array": {
+        "msgId": "2301120114271190067,2301120114271190068",
+        "phones": "22961498781,22998039720"
+    }
+}
+ 
+  ```
