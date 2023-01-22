@@ -1,7 +1,7 @@
 # kyasmsApi-php
 
 # What is it?
-KYA SMS a platform for sending marketing and banking sms all over the world. With our api, send your first message today.
+KYA SMS a platform for sending marketing and banking sms all over the world. With our api, send your first message today. Open an account <a href="https://kyasms.net">here</a>
 
 # . Installation
 
